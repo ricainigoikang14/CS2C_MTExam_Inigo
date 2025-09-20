@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+
+header {
+  background: #333; 
+  color: #fff; 
+  padding: 20px;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+header nav a {
+  color: white; 
+  margin: 0 10px 0 10px; 
+  text-decoration: none;
+}
+
+.hero {
+  background: url('../assets/images/hero.jpg') center/cover no-repeat;
+  color: white; 
+  padding: 30px; 
+  text-align: center;
+}
+
+.tourist, .products, .contact-form, .map {
+  padding: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width:20%;
+  height:auto;
+  box-shadow: 0px 5px 0 black;
+}
+
+.card {
+  border: 5px solid #ccc;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 15px 10px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #222; 
+  color: #fff; 
+  text-align: center; 
+  padding: 20px;
+}
+
+aside {
+  width: 20%; 
+  float: right; 
+  padding: 20px;
+}
